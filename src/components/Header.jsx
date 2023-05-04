@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Bouton from './Bouton';
 
 const Header = (props) => {
   return (
@@ -7,9 +8,10 @@ const Header = (props) => {
         <span>DailyDress</span>
       </div>
       <div>
-        <button>⚙</button>
-        <button>👔️</button>
-        <button>🛒</button>
+      <Bouton text="⬅"/>
+      <Bouton text="👔️"/>
+      <Bouton text="➡"/>
+      <Bouton text="⚙"/>
       </div>
     </Container>
   );
@@ -43,13 +45,7 @@ const Container = styled.header`
   }
 
   & div:last-child {
-    & button {
-      width: 100px;
-      height: 35px;
-      border-radius: 20px;
-      border: 1px solid black;
-      cursor: pointer;
-      margin: 0 40px;
-    }
+    display: flex;
+    margin: 0px 20px;
   }
 `;
