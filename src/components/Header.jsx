@@ -9,8 +9,8 @@ const Header = (props) => {
       </div>
       <div class="BoutonDiv">
       <Bouton text="⬅"/>
-      <Bouton text="⚙"/>
       <Bouton text="➡"/>
+      <Bouton text="⚙️"/>
       </div>
     </Container>
   );

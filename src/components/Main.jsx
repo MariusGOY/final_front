@@ -49,6 +49,11 @@ justify-content: center;
         margin: 20px 20px
     }
 
+    .BoutonDiv button {
+     background-color: #FFFFFF;
+     margin: 0 40px;
+    }
+
 }
 
 .CardItemDiv {
