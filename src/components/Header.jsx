@@ -7,11 +7,10 @@ const Header = (props) => {
       <div>
         <span>DailyDress</span>
       </div>
-      <div>
+      <div class="BoutonDiv">
       <Bouton text="⬅"/>
-      <Bouton text="👔️"/>
-      <Bouton text="➡"/>
       <Bouton text="⚙"/>
+      <Bouton text="➡"/>
       </div>
     </Container>
   );
@@ -36,8 +35,8 @@ const Container = styled.header`
     }
   }
 
-  & div:last-child {
-    display: flex;
-    margin: 0px 20px;
+  .BoutonDiv{
+      display: flex;
+      justify-content: center;
   }
 `;
