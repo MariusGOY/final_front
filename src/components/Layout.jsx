@@ -21,6 +21,7 @@ const Container = styled.div`
   }
 
   & main {
-    padding: 24px;
+    padding: 30px;
+    height: 600px;
   }
 `;

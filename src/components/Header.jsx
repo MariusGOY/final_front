@@ -25,22 +25,14 @@ const Container = styled.header`
   align-items: center;
   padding: 10px 20px;
   background-color: #fff;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
 
   & div:first-child {
     & span {
       font-size: 1.5rem;
       font-weight: bold;
+      margin: 0px 120px;
       color: #333;
-
-    }
-  }
-
-  & div:nth-child(2) {
-    & input {
-      border-radius: 6px;
-      border: 1px solid black;
-      height: 36px;
     }
   }
 
