@@ -1,16 +1,21 @@
 import styled from "styled-components";
+import React from "react";
 
-const ZoneText = (props) => {
+const ZoneInfo = (props) => {
   return (
     <Container>
     <div class="cadre">
-    <p></p>
+        <p></p>
+        <img id="imgInfo"
+          src=""
+          alt=""
+        />
     </div>
     </Container>
   );
 };
 
-export default ZoneText;
+export default ZoneInfo;
 
 const Container = styled.div`
 .cadre {
@@ -21,6 +26,12 @@ const Container = styled.div`
   padding: 20px;
   border-radius: 12px;
 
-}
+  & img {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+  }
 
+}
 `;
